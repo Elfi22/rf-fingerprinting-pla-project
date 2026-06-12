@@ -1,0 +1,63 @@
+{
+  "trial_name": "trial_2",
+  "model_type": "extra_trees",
+  "method": "anova",
+  "overall_adr": 0.8498995983935743,
+  "devices": {
+    "device10": {
+      "optimal_n_features": 10,
+      "selected_fold": 4,
+      "auth_tvr": 0.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.963855421686747,
+      "rogue_fvr": 0.0,
+      "adr": 0.4819277108433735
+    },
+    "device6": {
+      "optimal_n_features": 50,
+      "selected_fold": 3,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.9397590361445783,
+      "rogue_fvr": 0.0,
+      "adr": 0.9698795180722892
+    },
+    "device12": {
+      "optimal_n_features": 10,
+      "selected_fold": 5,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.963855421686747,
+      "rogue_fvr": 0.0,
+      "adr": 0.9819277108433735
+    },
+    "device3": {
+      "optimal_n_features": 50,
+      "selected_fold": 5,
+      "auth_tvr": 0.5,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.927710843373494,
+      "rogue_fvr": 0.0,
+      "adr": 0.713855421686747
+    },
+    "device11": {
+      "optimal_n_features": 100,
+      "selected_fold": 2,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 1.0,
+      "rogue_fvr": 0.0,
+      "adr": 1.0
+    },
+    "device1": {
+      "optimal_n_features": 50,
+      "selected_fold": 5,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.9036144578313253,
+      "rogue_fvr": 0.0,
+      "adr": 0.9518072289156627
+    }
+  },
+  "protocol_note": "Repository-compatible exploratory selection; rogue outcomes influence best-candidate selection as in official implementation."
+}

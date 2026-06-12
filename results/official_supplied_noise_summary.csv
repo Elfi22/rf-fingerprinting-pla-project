@@ -1,0 +1,19 @@
+snr_db,scenario,adr_percent
+1,Scenario 1,97.0
+3,Scenario 1,97.0
+5,Scenario 1,97.0
+7,Scenario 1,97.7
+10,Scenario 1,97.8
+15,Scenario 1,98.0
+1,Scenario 2,97.9
+3,Scenario 2,98.0
+5,Scenario 2,98.3
+7,Scenario 2,98.3
+10,Scenario 2,98.5
+15,Scenario 2,98.8
+1,Scenario 3,95.0
+3,Scenario 3,95.2
+5,Scenario 3,95.3
+7,Scenario 3,95.5
+10,Scenario 3,96.2
+15,Scenario 3,96.5

@@ -1,0 +1,81 @@
+{
+  "trial_name": "trial_3",
+  "model_type": "gaussian_nb",
+  "method": "anova",
+  "overall_adr": 0.8784090909090909,
+  "devices": {
+    "device1": {
+      "optimal_n_features": 50,
+      "selected_fold": 5,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0625,
+      "rogue_tvr": 0.8727272727272727,
+      "rogue_fvr": 0.0,
+      "adr": 0.9363636363636363
+    },
+    "device10": {
+      "optimal_n_features": 50,
+      "selected_fold": 2,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.9272727272727272,
+      "rogue_fvr": 0.0,
+      "adr": 0.9636363636363636
+    },
+    "device9": {
+      "optimal_n_features": 10,
+      "selected_fold": 3,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.8181818181818182,
+      "rogue_fvr": 0.0,
+      "adr": 0.9090909090909092
+    },
+    "device8": {
+      "optimal_n_features": 50,
+      "selected_fold": 3,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.13333333333333333,
+      "rogue_tvr": 0.8181818181818182,
+      "rogue_fvr": 0.0,
+      "adr": 0.9090909090909092
+    },
+    "device12": {
+      "optimal_n_features": 100,
+      "selected_fold": 5,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.9636363636363636,
+      "rogue_fvr": 0.0,
+      "adr": 0.9818181818181818
+    },
+    "device11": {
+      "optimal_n_features": 10,
+      "selected_fold": 3,
+      "auth_tvr": 0.0,
+      "auth_fvr": 0.058823529411764705,
+      "rogue_tvr": 0.9454545454545454,
+      "rogue_fvr": 0.0,
+      "adr": 0.4727272727272727
+    },
+    "device6": {
+      "optimal_n_features": 100,
+      "selected_fold": 4,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.9090909090909091,
+      "rogue_fvr": 0.0,
+      "adr": 0.9545454545454546
+    },
+    "device7": {
+      "optimal_n_features": 50,
+      "selected_fold": 2,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.8,
+      "rogue_fvr": 0.0,
+      "adr": 0.9
+    }
+  },
+  "protocol_note": "Repository-compatible exploratory selection; rogue outcomes influence best-candidate selection as in official implementation."
+}

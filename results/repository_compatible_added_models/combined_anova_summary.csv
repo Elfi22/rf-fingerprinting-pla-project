@@ -1,0 +1,9 @@
+model,model_group,mean_adr
+random_forest,official supplied baseline,0.9838181513934526
+logistic_regression,official supplied baseline,0.9720565595716198
+gradient_boosting,official supplied baseline,0.944795393695996
+gaussian_nb,added,0.8983217719362298
+svc,official supplied baseline,0.8970328789907104
+knn,official supplied baseline,0.8796412315930389
+extra_trees,added,0.8355789065352318
+xgb,official supplied baseline,0.8258333333333333

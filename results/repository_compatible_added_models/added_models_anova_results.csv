@@ -1,0 +1,7 @@
+trial,model,model_group,overall_adr
+trial_1,gaussian_nb,added,0.9275
+trial_1,extra_trees,added,0.8908333333333333
+trial_2,gaussian_nb,added,0.8890562248995985
+trial_2,extra_trees,added,0.8498995983935743
+trial_3,gaussian_nb,added,0.8784090909090909
+trial_3,extra_trees,added,0.766003787878788

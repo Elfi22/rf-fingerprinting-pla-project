@@ -1,0 +1,45 @@
+{
+  "trial_name": "trial_1",
+  "model_type": "gaussian_nb",
+  "method": "anova",
+  "overall_adr": 0.9275,
+  "devices": {
+    "device3": {
+      "optimal_n_features": 200,
+      "selected_fold": 3,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.14285714285714285,
+      "rogue_tvr": 0.87,
+      "rogue_fvr": 0.0,
+      "adr": 0.935
+    },
+    "device2": {
+      "optimal_n_features": 100,
+      "selected_fold": 5,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.77,
+      "rogue_fvr": 0.0,
+      "adr": 0.885
+    },
+    "device12": {
+      "optimal_n_features": 200,
+      "selected_fold": 2,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.96,
+      "rogue_fvr": 0.0,
+      "adr": 0.98
+    },
+    "device9": {
+      "optimal_n_features": 10,
+      "selected_fold": 4,
+      "auth_tvr": 1.0,
+      "auth_fvr": 0.0,
+      "rogue_tvr": 0.82,
+      "rogue_fvr": 0.0,
+      "adr": 0.9099999999999999
+    }
+  },
+  "protocol_note": "Repository-compatible exploratory selection; rogue outcomes influence best-candidate selection as in official implementation."
+}

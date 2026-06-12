@@ -1,0 +1,25 @@
+trial,model,model_group,overall_adr
+trial_1,gradient_boosting,official supplied baseline,0.91625
+trial_2,gradient_boosting,official supplied baseline,0.965863453815261
+trial_3,gradient_boosting,official supplied baseline,0.9522727272727272
+trial_1,knn,official supplied baseline,0.925
+trial_2,knn,official supplied baseline,0.9809236947791165
+trial_3,knn,official supplied baseline,0.733
+trial_1,logistic_regression,official supplied baseline,0.96125
+trial_2,logistic_regression,official supplied baseline,0.9799196787148596
+trial_3,logistic_regression,official supplied baseline,0.975
+trial_1,random_forest,official supplied baseline,0.97875
+trial_2,random_forest,official supplied baseline,0.9829317269076304
+trial_3,random_forest,official supplied baseline,0.9897727272727272
+trial_1,svc,official supplied baseline,0.9725
+trial_2,svc,official supplied baseline,0.8617804551539492
+trial_3,svc,official supplied baseline,0.8568181818181819
+trial_1,xgb,official supplied baseline,0.9725
+trial_2,xgb,official supplied baseline,0.86
+trial_3,xgb,official supplied baseline,0.645
+trial_1,gaussian_nb,added,0.9275
+trial_1,extra_trees,added,0.8908333333333333
+trial_2,gaussian_nb,added,0.8890562248995985
+trial_2,extra_trees,added,0.8498995983935743
+trial_3,gaussian_nb,added,0.8784090909090909
+trial_3,extra_trees,added,0.766003787878788

@@ -1,0 +1,26 @@
+{
+  "dataset": "dataset/processed_fingerprints_data.h5",
+  "samples": 146,
+  "features": 505,
+  "devices": 12,
+  "feature_selection": "ANOVA SelectKBest; fixed k=50 selected before testing; selector fitted on authorized training fold only",
+  "outer_evaluation": "3-fold stratified cross-validation on authorized samples; rogue devices are external test only",
+  "rogue_used_for_selection": false,
+  "class_imbalance_control": "Balanced class weighting/priors for executed binary authentication models",
+  "random_state": 42,
+  "models": [
+    "random_forest",
+    "logistic_regression",
+    "extra_trees",
+    "lda"
+  ],
+  "trials": [
+    "trial_1",
+    "trial_2",
+    "trial_3"
+  ],
+  "added_models": [
+    "extra_trees",
+    "lda"
+  ]
+}
