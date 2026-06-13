@@ -1,32 +1,36 @@
-# RF Fingerprinting / Physical Layer Authentication (PLA)
+# RF Fingerprinting / Physical Layer Authentication
 
 **Student:** Filip Kanchev  
 **Student ID:** 2185972  
 **Course:** Security of Advanced Networking and Services
 
-## Overview
+This repository contains the project files for an RF Fingerprinting / Physical Layer Authentication (PLA) study based on the reference implementation by Alla et al., *Robust Device Authentication in Multi-Node Networks: ML-Assisted Hybrid PLA Exploiting Hardware Impairments*.
 
-This repository contains the code, dataset, results, figures, and report for the RF Fingerprinting / Physical Layer Authentication project.
+The aim of the project is to keep the original PLA assessment logic and add two additional machine-learning models for comparison. The work uses the processed DGT-based RF fingerprint dataset included in the official repository.
 
-The work uses the PLA framework and processed RF fingerprint features from:
+## Project focus
 
-https://github.com/PLA-AP/PLA
+The reference work studies whether hardware impairments can create reliable RF fingerprints when combined with Gabor-transform based signal processing and diagonal spectrum reading. The ML stage evaluates which models and feature selections are more robust for recognizing the fingerprints.
 
-The project compares additional machine-learning classifiers for unauthorized-device detection using the processed DGT-based RF fingerprint dataset.
+This project adds and evaluates:
+
+- Gaussian Naive Bayes
+- Extra Trees Classifier
+
+The added models are compared with the original repository results under the same three trial scenarios.
 
 ## Files
 
 ```text
-RF_Fingerprint_Repository_Compatible_Extension.py   Main ANOVA comparison script
-RF_Fingerprint_Extended.py                          Additional rogue-held-out test
-extract_official_results.py                         Parses supplied baseline results
-plot_official_noise_results.py                      Plots supplied noise summaries
-requirements.txt                                    Python dependencies
+RF_Fingerprint_Additional_Models.py   Additional model evaluation script
+extract_official_results.py           Extracts original repository result summaries
+make_summary_figures.py               Generates comparison figures
+requirements.txt                      Python dependencies
 
-dataset/processed_fingerprints_data.h5              Processed RF fingerprint data
-results/                                            CSV and JSON experiment results
-figures/                                            Generated plots
-report/                                             Final PDF report
+dataset/processed_fingerprints_data.h5
+results/                              CSV and JSON results
+figures/                              Generated figures
+report/                               Final PDF report
 ```
 
 ## Setup
@@ -35,18 +39,19 @@ report/                                             Final PDF report
 pip install -r requirements.txt
 ```
 
-## Run the main experiment
+## Run the added-model experiment
 
 ```bash
-python RF_Fingerprint_Repository_Compatible_Extension.py
+python RF_Fingerprint_Additional_Models.py --model gaussian_nb extra_trees --feature anova
 ```
 
-## Run the additional security test
+## Recreate summary files and figures
 
 ```bash
-python RF_Fingerprint_Extended.py
+python extract_official_results.py
+python make_summary_figures.py
 ```
 
 ## Dataset note
 
-The repository includes the processed fingerprint dataset used in the report. The larger raw dataset and noise dataset are not included because of their size.
+The repository includes the processed fingerprint dataset used for the submitted experiments. The larger raw signal dataset and noise dataset are not included because of their size.
